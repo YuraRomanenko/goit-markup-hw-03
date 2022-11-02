@@ -42,6 +42,7 @@ button {
 
 .header {
     background:var(--white-text-color-header);
+
 }
 
 .header-container {
@@ -105,12 +106,15 @@ color: var(--accent-color);
     color:var(--secondary-text-color);
 }
 /* button */
+.container {
 
+}
 
 .about-container {
     display: flex;
     margin: 30px;
     padding: 94px;
+
 }
 .about-list {
     display: flex;
@@ -156,9 +160,6 @@ color: var(--accent-color);
 } 
 
 .hero-background {
-    
-}
-.background {
     background-color:var(--header-footer);
     color:var(--white-text-color-header);
     text-align: center;
@@ -168,12 +169,12 @@ color: var(--accent-color);
     line-height:1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
     padding: 200px 452px 280px 452px;
+}
+
+.background {  
  }
 
-
-  
 ul {
     list-style: none;
 }
@@ -191,6 +192,10 @@ ul {
 /* Специализация */
 
 
+
+.section-lower {
+    background-color:var(--secondary-background);
+}
 .section-text {
     text-align:left;
     font-weight: 700;
@@ -225,7 +230,7 @@ ul {
     color:var(--secondary-text-color);
 }
 .section-title {
-    text-align:left;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height:1.14;
