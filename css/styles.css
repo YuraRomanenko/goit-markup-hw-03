@@ -36,6 +36,7 @@ button {
 }
 .list {
     list-style:none;
+    
 }
 .link {
     text-decoration: none;
@@ -110,26 +111,30 @@ color: var(--accent-color);
 }
 /* button */
 .image-container {
-    height: 386px;
+    width: 1200px;
     border: 2px solid var(--border);
+    margin: 94px auto;
+    padding-left: 15px;
+    padding-right: 5px;
 }
 
 .section {
-    
+}
+.text {
+    width: 270px;
 }
 .about-container {
     width: 1200px;
-    height: 98px;
     display: flex;
-    margin: 30px;
-    padding: 94px;
+    margin: 94px auto;
     border: 2px solid var(--border);
-padding-left: 15px;
-padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .about-list {
     display: flex;
     gap:var(--indent);
+    padding-left: 10px;
 }
 .about-team {
     display: flex;
@@ -171,20 +176,20 @@ padding-right: 15px;
 } 
 
 .hero-background {
+    width: 1200;
     background-color:var(--header-footer);
     color:var(--white-text-color-header);
-    
-    height: 600px;
-    font-weight:900;
-    font-size: 44px;
-    line-height:1.36;
     text-align: center;
     letter-spacing: 0.06em;
     padding: 200px 452px 280px 452px;
+    border: 2px solid var(--border);
 }
 
 .background {
-     
+    font-size: 44px;
+    font-weight:900;
+    line-height:1.36;
+    border: 2px solid var(--border);
  }
 
 ul {
@@ -265,7 +270,12 @@ ul {
     font-size: 14px;
     line-height:1.71;
     letter-spacing: 0.03em;
-}
+        display: flex;
+        padding: 80px 1240px 101px 215px;
+        border: 2px solid var(--border);
+        width: 1200px;
+        height: 252px;
+    }
 .address {
     font-style: normal;
 }
