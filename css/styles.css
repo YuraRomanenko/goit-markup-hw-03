@@ -176,9 +176,7 @@ ul {
     background: var(--main-background);
 }
 
-.Portfolio {
-    
-}
+.Portfolio
 
 .site-nav, .link:hover
 .site-nav, .link:focus{
@@ -231,13 +229,15 @@ ul {
     width: 1200px;
     border: 2px solid var(--border);
     margin: 94px auto;
+padding-left: 15px;
+padding-right: 15px;
     text-align: center;
 }
 .about-list {
     display: flex;
     gap:var(--indent);
-padding: 0%;
-margin: auto;
+    padding: 0px;
+    margin: auto;
 }
 .section-title {
     text-align: center;
@@ -246,6 +246,7 @@ margin: auto;
     line-height:1.14;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
+    padding-left: 40px;
 }
 .about-team {
     display: flex;
