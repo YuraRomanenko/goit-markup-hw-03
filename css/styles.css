@@ -110,37 +110,7 @@ color: var(--accent-color);
     color:var(--secondary-text-color);
 }
 /* button */
-.image-container {
-    width: 1200px;
-    border: 2px solid var(--border);
-    margin: 94px auto;
-    padding-left: 15px;
-    padding-right: 5px;
-}
 
-.section {
-}
-.text {
-    width: 270px;
-}
-.about-container {
-    width: 1200px;
-    display: flex;
-    margin: 94px auto;
-    border: 2px solid var(--border);
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.about-list {
-    display: flex;
-    gap:var(--indent);
-    padding-left: 10px;
-}
-.about-team {
-    display: flex;
-    flex-wrap: wrap;
-    gap:30px;
-}
 .button {
     text-align: center;                                 
     color:var(--primary-text-color);
@@ -202,6 +172,14 @@ ul {
 
 /* sektion portfolio */
 
+.container {
+    background: var(--main-background);
+}
+
+.Portfolio {
+    
+}
+
 .site-nav, .link:hover
 .site-nav, .link:focus{
     color:var(--logo-color);
@@ -210,10 +188,7 @@ ul {
 
 
 
-.section-lower {
-    background-color:var(--secondary-background);
-    border: 2px solid var(--border);
-}
+
 .section-text {
     text-align:left;
     font-weight: 700;
@@ -247,6 +222,23 @@ ul {
     letter-spacing: 0.03em;
     color:var(--secondary-text-color);
 }
+
+.section-lower {
+    background-color:var(--secondary-background);
+    border: 2px solid var(--border);
+}
+.image-container {
+    width: 1200px;
+    border: 2px solid var(--border);
+    margin: 94px auto;
+    text-align: center;
+}
+.about-list {
+    display: flex;
+    gap:var(--indent);
+padding: 0%;
+margin: auto;
+}
 .section-title {
     text-align: center;
     font-weight: 700;
@@ -255,6 +247,25 @@ ul {
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
 }
+.about-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.about-container {
+    width: 1200px;
+    display: flex;
+    margin: 94px auto;
+    outline: 2px solid ;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section {
+}
+.text {
+    
+}
+
 .section-cards {
     text-align:left;
     font-weight: 700;
@@ -273,7 +284,6 @@ ul {
         display: flex;
         padding: 80px 1240px 101px 215px;
         border: 2px solid var(--border);
-        width: 1200px;
         height: 252px;
     }
 .address {
