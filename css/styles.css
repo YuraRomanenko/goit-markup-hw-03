@@ -30,7 +30,12 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 button {
     font-family: inherit;
 }
@@ -40,19 +45,18 @@ button {
 }
 .link {
     text-decoration: none;
+    margin-right: 50px;
 }
 
 .header {
     background:var(--white-text-color-header);
-
 }
 
 .header-container {
     display: flex;
     align-items:center;
-    padding: 24px 93px 25px 215px;
-    height: 80px;
     border: 2px solid var(--border);
+    height: 80px;
 }
 .logo:link {
     margin-right:93px;
@@ -64,26 +68,30 @@ button {
     line-height:1.19;
     letter-spacing: 0.03em;
     color:var(--accent-color);
+    
     }
     
 .logo-header {
         color:var(--logo-color);
 }
-
 .nav-list {
     display: flex;
     align-items: center;
     background-color:antiquewhite;
-    padding: 10px;
-   margin: 50px;
+    padding: 0;
+    margin: 0;
 }
 
+.tel {
+    margin-left:;
+    
+}
 .header-nav {
     display: flex;
 }
-
 .nav-item {
-    margin-left: 10px;
+    margin-left:auto;
+
 }
 .nav-link {
     font-weight: 500;
@@ -120,10 +128,16 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     border-radius: 4px;
+    border: var(--secondary-background);
     cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
 } 
- 
+.container-button {
+border: 2px solid var(--border);
+background: var(--main-background);
+text-align: center;
+background-color:var(--white-text-color-header);
+}
 .prise-btn {
     display: block;
     margin: auto;
@@ -132,6 +146,7 @@ color: var(--accent-color);
 .button:hover,.button:focus {
     color:var(--white-text-color-header);
     background-color:var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }  
 
 .hero-button {                                
@@ -153,7 +168,8 @@ color: var(--accent-color);
     color:var(--white-text-color-header);
     text-align: center;
     letter-spacing: 0.06em;
-    padding: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     border: 2px solid var(--border);
     
 }
@@ -175,8 +191,8 @@ ul {
 
 /* sektion portfolio */
 
-.container {
-    border: 2px solid var(--border);
+.cards-container {
+    
     background: var(--main-background);
     text-align: center;
 }
@@ -187,10 +203,6 @@ ul {
 .site-nav, .link:focus{
     color:var(--logo-color);
 }
-/* Специализация */
-
-
-
 
 .section-text {
     text-align:left;
@@ -227,30 +239,33 @@ ul {
     color:var(--secondary-text-color);
     text-align: center;
 }
-
 .section-lower {
     background-color:var(--secondary-background);
-    border: 2px solid var(--border);
+    padding-top: 94px;
+    padding-bottom: 64px;
 }
 .image-container {
-    width: 1200px;
-    border: 2px solid var(--border);
+    display: flex;
+    display: block;
+    width: 1170px;
     margin: 94px auto;
-padding-left: 15px;
+    
 padding-right: 15px;
     text-align: center;
 
 }
 .Portfolio {
+    display: block;
     display: flex;
     gap: var(--indent);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .about-list {
+    display: block;
     display: flex;
-    gap:var(--indent);
-    padding: 0px;
-    margin: 0px;
-    width: 480px;
+    
+    
     
 }
 .section-title {
@@ -261,25 +276,44 @@ padding-right: 15px;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
     padding-left: 40px;
+    margin-bottom:94px;
+    
 }
 .about-team {
     display: flex;
     flex-wrap: wrap;
     gap:30px;
+    margin-left:107px;
 }
+.text {
+    padding-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    background-color: var(--white-text-color-header);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+ }
 .about-container {
     width: 1200px;
     display: flex;
-    margin: 94px auto;
-    outline: 2px solid ;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 2px solid ;
+}
+
+.h1,h2,h3,p {
+margin: 0;
 }
 .section {
-}
-.text {
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
+.section-center {
+    padding-bottom: 94px;
+}
+
 
 .section-cards {
     text-align:left;
@@ -298,9 +332,9 @@ padding-right: 15px;
     line-height:1.71;
     letter-spacing: 0.03em;
         display: flex;
-        padding: 80px 1240px 101px 215px;
         border: 2px solid var(--border);
-        height: 252px;
+        padding-top: 60px;
+        padding-bottom:60px;
     }
 .address {
     font-style: normal;
@@ -311,6 +345,7 @@ padding-right: 15px;
 .logo-footer {
     color:var(--white-text-color-header);
     font-family: 'Raleway';
+    
 }
 .footer-contact {
     color:var(--secondary-text-color);
