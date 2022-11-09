@@ -43,6 +43,7 @@ button {
 .list {
     list-style:none;
     padding: 0%;
+    
 }
 .link {
     text-decoration: none;
@@ -57,7 +58,6 @@ button {
 .header-container {
     display: flex;
     align-items:center;
-    height: 80px;
 }
 .logo:link {
     margin-right:93px;
@@ -78,9 +78,9 @@ button {
 .nav-list {
     display: flex;
     align-items: center;
-    background-color:antiquewhite;
     padding: 0;
     margin: 0;
+    
 }
 
 .tel {
@@ -91,8 +91,8 @@ button {
     display: flex;
 }
 .nav-item {
-    margin-left:auto;
-
+    margin-right: 50px;
+    background-color:antiquewhite;
 }
 .nav-link {
     padding-top: 30px;
@@ -103,6 +103,7 @@ button {
     font-size: 14px;
     line-height:1.14;
     letter-spacing: 0.02em;
+    margin-right: 50px;
 }
 /* смена цвета */
 
@@ -328,7 +329,7 @@ margin: 0;
     padding-bottom: 94px;  
 }
 .section-center {
-    padding-bottom: 94px;
+    
 }
 .secondary-cards {
     font-weight: 400;
@@ -375,4 +376,10 @@ margin: 0;
 }
 .footer-contact {
     color:var(--secondary-text-color);
+}
+
+.Flex-container {
+    background-color: aqua;
+}
+.Flex-element {  
 }
