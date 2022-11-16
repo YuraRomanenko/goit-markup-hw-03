@@ -143,6 +143,16 @@ color: var(--accent-color);
     margin-top:auto;
     width: 370px;
 }
+.cardname {
+border-left: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+padding-left: 24px;
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
+
+}
 .button {
     text-align: center;                                 
     color:var(--primary-text-color);
@@ -265,16 +275,7 @@ ul {
     padding-top: 94px;
     padding-bottom: 64px;
 }
-.image-container {
-    
-    display: block;
-    width: 1170px;
-    margin: 94px auto;
-padding-right: 15px;
-    border: var(--border);
-    border: 2px solid var(--border);
 
-}
 
 .about-list {
     display: block;
@@ -291,7 +292,6 @@ padding-right: 15px;
     line-height:1.14;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
-    margin-bottom: 94px;
 
 }
 
@@ -302,7 +302,6 @@ padding-right: 15px;
     line-height:1.14;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
-    margin-bottom:94px;
     
 }
 .about-team {
@@ -313,7 +312,6 @@ padding-right: 15px;
 }
 .text {
     padding-top: 30px;
-    margin-bottom: 10px;
     padding-bottom: 30px;
     background-color: var(--white-text-color-header);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -360,16 +358,9 @@ margin: 0;
 
 .footer {
     background-color:var(--header-footer);
-    font-weight: 400;
-    font-size: 14px;
-    line-height:1.71;
-    letter-spacing: 0.03em;
-        display: flex;
-        border: 2px solid var(--border);
-        padding-top: 60px;
-        padding-bottom: 60px;
-        padding-left: 215px;
-        
+   
+     padding-top: 60px;
+     padding-bottom: 60px;
     }
 .address {
     font-style: normal;
