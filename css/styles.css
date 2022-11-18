@@ -39,8 +39,17 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.h1-h2-h3-h4-h5-h6-p {
+    margin: 0;
+}
+.section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 button {
     font-family: inherit;
+    margin-right: 8px;
+    margin-bottom: 50px;
 }
 .list {
     list-style:none;
@@ -94,7 +103,7 @@ button {
 .header-nav {
     display: flex;
 }
-.nav-item {   
+.nav-item {  
 }
 
 .nav-link {
@@ -132,10 +141,10 @@ color: var(--accent-color);
     gap: var(--indent);
     padding-top: 88px;
     display: flex;
-
     flex-wrap: wrap;
     padding: 0;
     list-style: none;
+    background-color: chartreuse;
 }
 .portfolio-text {
     background:var(--white-text-color-header);
@@ -166,6 +175,7 @@ padding-bottom: 20px;
 background: var(--main-background);
 text-align: center;
 background-color:var(--white-text-color-header);
+
 }
 .prise-btn {
     display: block;
@@ -316,24 +326,14 @@ ul {
     background-color: var(--white-text-color-header);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-background-color: chartreuse;
  }
 .about-container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid ;
     margin: auto; 
 }
 
-.h1-h2-h3-h4-h5-h6-p {
-margin: 0;
-}
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
-}
 
 .secondary-cards {
     font-weight: 400;
@@ -356,16 +356,16 @@ margin: 0;
 
 .footer {
     background-color:var(--header-footer);
-   
      padding-top: 60px;
      padding-bottom: 60px;
+     padding-left: 215px;
     }
 .address {
     font-style: normal;
 }
 .footer-location {
     color: var(--white-text-color-header);
-
+margin-bottom: 9px;
 }
 .logo-footer {
     color:var(--white-text-color-header);
@@ -374,12 +374,10 @@ margin: 0;
 }
 .footer-contact {
     color:var(--secondary-text-color);
-    
+ margin-bottom: 9px;
 }
 .flex-container {
     max-width: 1200px;
-    height: 1360px;
-    
     margin-left: auto;
     margin-right: auto;
     margin-top: 94px;
