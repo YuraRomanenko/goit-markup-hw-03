@@ -144,8 +144,9 @@ color: var(--accent-color);
     flex-wrap: wrap;
     padding: 0;
     list-style: none;
-    background-color: chartreuse;
-}
+    margin: auto;
+    background-color: aqua;
+} 
 .portfolio-text {
     background:var(--white-text-color-header);
     margin-top:auto;
@@ -382,7 +383,10 @@ margin-bottom: 9px;
     margin-right: auto;
     margin-top: 94px;
     border: 2px solid var(--border);
+    margin-bottom: 94px;
 }
 .item {
     flex-basis: calc((100% - 20px) / 4);
+    gap: 30px;
+
 }
