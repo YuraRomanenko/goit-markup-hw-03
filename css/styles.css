@@ -11,7 +11,7 @@
     --button-background:#F5F4FA;
     --indent:30px;
     --items:3;
-    --border:brown;
+    --border:var(--secondary-text-color);
 }
 /* Зброс стилей */
 h1, h2, h3, h4, h5, h6, p {
@@ -58,7 +58,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.h1-h2-h3-h4-h5-h6-p {
+  h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
 .section {
@@ -85,12 +85,13 @@ button {
 
 .header {
     background:var(--white-text-color-header);
-   
+    border: 1px solid var(--border);
 }
 
 .header-container {
     display: flex;
     align-items:center;
+    
 }
 .logo:link {
     margin-right:93px;
@@ -221,10 +222,12 @@ background: var(--main-background);
 text-align: center;
 background-color:var(--white-text-color-header);
 
+
 }
-.element {
+.element-nav {
     margin-bottom: 50px;
-    
+justify-content: center;
+display: flex;
 }
 .prise-btn {
     display: block;
@@ -440,11 +443,7 @@ margin-bottom: 9px;
     color:var(--secondary-text-color);
  margin-bottom: 9px;
 }
-.flex-container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    }
+
 .item {
     flex-basis: calc((100% - 30px) / 4);
     gap: 30px;
