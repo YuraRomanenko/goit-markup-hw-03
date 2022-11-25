@@ -24,12 +24,16 @@ h1, h2, h3, h4, h5, h6, p {
     height: auto;
   }
   
-  .list .ul {
+  .list {
     padding: 0;
     margin: 0;
     list-style: none;
   }
-  
+  .ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
   .link {
     text-decoration: none;
   }
@@ -277,6 +281,7 @@ display: flex;
     margin-right: auto;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    margin-bottom: 30px;
  }
 
 ul {
@@ -380,7 +385,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap:30px;
-    margin-left:107px;
+    margin-top: 50px;
 }
 .text {
     padding-top: 30px;
