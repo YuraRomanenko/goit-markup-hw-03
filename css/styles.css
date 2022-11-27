@@ -11,7 +11,7 @@
     --button-background:#F5F4FA;
     --indent:30px;
     --items:3;
-    --border:var(--secondary-text-color);
+    --border: #ECECEC;
 }
 /* Зброс стилей */
 h1, h2, h3, h4, h5, h6, p {
@@ -76,7 +76,6 @@ body {
 button {
     font-family: inherit;
     margin-right: 8px;
-    margin-bottom: 50px;
 }
 .list {
     list-style:none;
@@ -89,13 +88,13 @@ button {
 
 .header {
     background:var(--white-text-color-header);
-    border: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
 }
 
 .header-container {
     display: flex;
     align-items:center;
-    
+
 }
 .logo:link {
     margin-right:93px;
@@ -141,7 +140,6 @@ button {
 }
 .nav-item {  
 }
-
 .nav-link {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -287,21 +285,10 @@ display: flex;
 ul {
     list-style: none;
 }
-
-
-/* site nav Навигация*/
-
-
-/* sektion portfolio */
-
-.cards-container {
-    
+.cards-container {   
     background: var(--main-background);
     text-align: center;
 }
-
-
-
 .site-nav, .link:hover
 .site-nav, .link:focus {
     color:var(--logo-color);
@@ -400,8 +387,6 @@ ul {
     padding-right: 15px;
     margin: auto; 
 }
-
-
 .secondary-cards {
     font-weight: 400;
     font-size: 16px;
@@ -410,17 +395,14 @@ ul {
     color:var(--secondary-text-color);
     text-align: left;
 }
-
 .section-cards {
     text-align:left;
     font-weight: 700;
     font-size: 18px;
     line-height:1.14;
     letter-spacing: 0.03em;
-    color:var(--primary-text-color);
-    
+    color:var(--primary-text-color);  
 }
-
 .footer {
      background-color:var(--header-footer);
      padding-top: 60px;
@@ -434,21 +416,18 @@ ul {
     font-style: normal;
     margin-top: 20px
 }
-
 .footer-location {
     color: var(--white-text-color-header);
 margin-bottom: 9px;
 }
 .logo-footer {
     color:var(--white-text-color-header);
-    font-family: 'Raleway';
-    
+    font-family: 'Raleway';  
 }
 .footer-contact {
     color:var(--secondary-text-color);
  margin-bottom: 9px;
 }
-
 .item {
     flex-basis: calc((100% - 30px) / 4);
     gap: 30px;
